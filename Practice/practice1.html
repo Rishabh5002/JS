@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice html</title>
+  <style>
+    /* .clickable {background-color: rgb(0, 237, 0);
+     color: black;
+    }
+     .clickable2 {background-color:white;
+                 color: black;
+    } */
+    .clickable{
+  background-color: rgb(0, 255, 0);
+  border: none;
+  padding: 5px 15px; 
+  border-radius: 10px;
+  }
+
+.clickable2{
+ padding: 5px 30px;
+ border-radius: 10px;
+  }
+  </style>
+</head> 
+<body>
+  <!-- <button>click</button> <br>
+  <button id="id"> id button </button><br>
+  <button id="class"> class button</button> <br> -->
+  
+  <button class="clickable" id="first" onclick="alert('item is added to bag')">Add to Bag</button>
+  <button class="clickable2"id="second" onclick="alert('item is added to 💝Wishlist')">💝Wishlist</button> 
+  <br>
+  <!-- <main>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magni enim ipsa repudiandae ducimus voluptatem perferendis earum voluptates maiores molestias dolores at recusandae tempore adipisci dolorem dicta, voluptatibus laudantium iste.</p>
+</main> -->
+  <hr>
+<script>
+// console.log(alert("welcome to Meesho!!"));
+let jeans_price = (((2499)-(0.41*2499))- 29);
+let bag_price = (((15599)- (0.1*15599)) - 272);
+let bag_value = Math.round((jeans_price + bag_price +25 + 20) *118/100);
+let bag_summary =`your total bag amount is ₹${bag_value}`;
+console.log(bag_summary);
+  </script>
+</body>
+</html>

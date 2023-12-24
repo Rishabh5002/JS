@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Truthy & Falsy</title>
+</head>
+<body>
+  
+  <script>
+    let age = 21;
+    if(age){
+      console.log("You have valid age");
+    }else{
+      console.log("Alien");
+    }
+    let age1 = 0;
+    if (age1){
+      console.log("You have valid age");
+    }
+    else{
+      console.log("You have valid age");
+    }
+    let age2 = null;
+    if(age2){
+      console.log("You have valid age ");
+    }else{
+      console.log("You have invalid age");
+    }
+    let age3 = '';
+    if (age3){
+      console.log("you have valid age");
+    }else{
+      console.log("invalid");
+    }
+  </script>
+</body>
+</html>

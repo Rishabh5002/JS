@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objects</title>
+</head>
+<body>
+  
+  <script>
+    // let product = {
+    //   company: 'Mango',
+    //   price: `Rs 861`,
+    //   'item-name': 'T-shirt',
+    //   displayPrice: function() {
+    //     console.log(`Price of product is ${product.price}`)
+    //   }
+    // };
+    // console.log(product);
+    // console.log(product.company);
+    // console.log(product.price);   
+
+    // console.log(product['item-name']);//bracket notation if property name does not follow variable rules
+    // product.displayPrice();
+
+    // delete product.company;
+    // console.log(product);
+
+    // console.log('This is KG Coding'.length);
+
+    // let a = 5;
+    // let b = a;
+    // console.log(`a = ${a}, b = ${b}`);
+    // a = 8;
+    // console.log(`a = ${a}, b = ${b}`);
+
+    // let x = {num: 5};
+    // let y = x;
+    // console.log(`x = ${x.num}, y = ${y.num}`);
+    // x.num = 8;
+    // console.log(`x = ${x.num}, y = ${y.num}`);
+  
+    // let p = {pop: 'kuch bhi'};
+    // let q = {pop: 'kuch bhi'};
+    // console.log(p==q);
+
+       let product = {
+      company: 'Mango',
+      price: `Rs 861`,
+      'item-name': 'T-shirt',
+      displayPrice: function() {
+      console.log(`Price of product is ${product.price}`)
+      }
+    };
+    let {company} = product;
+    let {price} = product;
+    console.log(`Price of T-shrt of ${company} is ${price}`)
+  </script>
+</body>
+</html>
