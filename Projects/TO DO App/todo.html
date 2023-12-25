@@ -6,11 +6,16 @@
   <title>TO DO App</title>
   <link rel="stylesheet" href="todo.css">
 </head>
-<body>
-  <h1 id="main-heading"> To-Do App</h1>
+<body class="background">
+  <h1 id="main-heading"> Todo App</h1>
    
+  <div class="grid-container">
   <input type="text" id="todo-input" placeholder="Enter todo here!!">
-  <button onclick= "addTodo()">Add</button>
+  <input type="date" name="" id="todo-date">
+  <button class="button" onclick="addTodo();">Add</button>
+ </div>
+
+ <div class="todo-container grid-container"></div>
 
   <script src="todo.js"></script>
 </body>

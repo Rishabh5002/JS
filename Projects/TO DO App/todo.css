@@ -5,3 +5,39 @@ body{
 #main-heading {
   text-align: center;
 }
+
+.background {
+  background-color: blueviolet;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 150px 150px;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+#todo-input, #todo-date {
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+.delete-Todo {
+  background-color: maroon;
+  color: white;
+  border-radius: 15px;
+  font-size: 15px;
+  padding: 10px 10px;
+}
+
+
+.button {
+  background-color: green;
+  color: white;
+  border-radius: 15px;
+  font-size: 15px;
+  padding: 10px 10px;
+}
