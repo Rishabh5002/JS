@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praxtice 8</title>
+  <style>
+    .my-button {
+      font-size: 15px;
+      height: 20px;
+      width: 80px;
+      background-color: rgb(239, 8, 8);
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .size-double {
+      font-size: 30px;
+      height: 40px;
+      width: 160px;
+    }
+  </style>
+</head>
+<body>
+  
+  <button class= "my-button"
+   onclick="setTimeout(doubleSize, 
+    2000);doubleSize();">Click 
+   </button>
+ 
+  <script>
+//     let buttonElement = document.querySelector('.my-button');
+//     buttonElement.addEventListener('click', event =>
+//       setTimeout(doubleSize,2000 )
+//     );
+
+// function doubleSize() {
+//        let buttonElement = document.querySelector('.my-button');
+//        buttonElement.classList.add('size-double');
+//     }
+   
+
+    // let multiply = (num1,num2)=> num1 * num2;
+    // console.log(multiply(4,5));
+ 
+
+    // let printGreeting = ()=> console.log("hello!!");
+    // let runTwice = inputFunction => {
+    //   inputFunction(); 
+    //   inputFunction();
+    // }
+    // runTwice(printGreeting);
+
+
+    // let arr = [ 1,2,3,4,5,6,7];
+    // let squares  = arr.map((arr)=>  arr * arr)
+    // console.log(squares);
+
+    
+    let arr = [1,2,3,4,5,6,7,8];
+    let sum = 0;
+    arr.forEach(num => sum += num);
+    console.log(sum);
+
+  </script>
+</body>
+</html>
